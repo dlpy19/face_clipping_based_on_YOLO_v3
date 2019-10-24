@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 
 * Clone this repository
 
-$ git clone https://github.com/sthanhng/yoloface or download it as  zippfolder
+$ git clone https://github.com/dlpy19/face_clipping  or download it as  zippfolder
 ```
 1. Put the images contain faces to be detected in the images folder  in ".jpg" format.
 2. Run   $ python detect_batch.py
