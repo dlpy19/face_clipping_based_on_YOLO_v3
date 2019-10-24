@@ -36,7 +36,7 @@ Example:
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
 
-## References
 
-## This code is modified from the original repository https://github.com/sthanhng/yoloface
-## Credit to Thanh Nguyen
+References
+This code is modified from the original repository https://github.com/sthanhng/yoloface
+Credit to Thanh Nguyen
