@@ -1,9 +1,9 @@
 # YOLO-v3 Face detection. This code is used for detecting and clipping human faces in batch of images and save the clipped faces in a separate folder for other usage.
-It also resise the clipped faces with respict to ratio to a custom size.
+# It also resize the clipped faces with respict to ratio to a custom size.
 
 
-#This code is modified fro the original repository of  https://github.com/sthanhng. 
- 
+#This code is modified from the original repository of  https://github.com/sthanhng. 
+ Credet and thanks to Thanh Nguyen, 2018
 
 ## Getting started
 
