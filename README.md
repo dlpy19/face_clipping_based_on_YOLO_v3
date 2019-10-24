@@ -1,6 +1,8 @@
 # YOLO-v3 Face detection. 
+
 ## This code is used for detecting and clipping human faces in batch of images and save the clipped faces in a separate folder for other usage.
 ## It also resize the clipped faces with respect to ratio to a custom size.
+
 
 ## Prerequisites
 
@@ -27,6 +29,8 @@ $ git clone https://github.com/sthanhng/yoloface or download it as  zippfolder
 4. If you want to resize the faces to custom image size:
    Run $   python  batch_resize.py  [desired dimention]  ## for example 223 will resize all faces as (223x223) with respect to ratio.
 
+Example:
+![GitHub Logo](/test2.jpg)
 
 ## License
 
