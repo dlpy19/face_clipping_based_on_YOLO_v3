@@ -38,5 +38,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 References
-This code is modified from the original repository https://github.com/sthanhng/yoloface
+This code is modified from the original repository https://github.com/sthanhng/yoloface .
+
 Credit to Thanh Nguyen
