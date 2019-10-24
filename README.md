@@ -29,15 +29,16 @@ $ git clone https://github.com/sthanhng/yoloface or download it as  zippfolder
 4. If you want to resize the faces to custom image size:
    Run $   python  batch_resize.py  [desired dimention]  ## for example 223 will resize all faces as (223x223) with respect to ratio.
 
-Example:
-![GitHub Logo](/test2.jpg)
+
+![GitHub Logo](/test.jpg)
+![GitHub Logo](/1.png)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
 
 
-References
+Note:
 This code is modified from the original repository https://github.com/sthanhng/yoloface .
 
 Credit to Thanh Nguyen
