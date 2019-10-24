@@ -41,4 +41,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 Note:
 This code is modified from the original repository https://github.com/sthanhng/yoloface .
 
+
 Credit to Thanh Nguyen
