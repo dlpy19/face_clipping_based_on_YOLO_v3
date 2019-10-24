@@ -1,7 +1,9 @@
-# YOLOFace
+# YOLO-v3 Face detection. This code is used for detecting and clipping human faces in batch of images and save the clipped faces in a separate folder for other usage.
+It also resise the clipped faces with respict to ratio to a custom size.
 
-# Deep learning based Face detection using the YOLOv3 algorithm
 
+#This code is modified fro the original repository of  https://github.com/sthanhng. 
+ 
 
 ## Getting started
 
@@ -13,10 +15,6 @@ The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detectio
 
 Credit: [Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 
-## OpenCV Deep Neural Networks (dnn module)
-
-OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks such as TensorFlow, Torch, Darknet and Caffe.
-
 ## Prerequisites
 
 * Tensorflow
@@ -27,27 +25,13 @@ OpenCV `dnn` module supports running inference on pre-trained deep learning mode
 * Matplotlib
 * Pillow
 
-Development for this project will be isolated in Python virtual environment. This allows us to experiment with different versions of dependencies.
-
-There are many ways to install `virtual environment (virtualenv)`, see the [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/) guide for different platforms, but here are a couple:
-
 - For Ubuntu
 ```bash
 $ pip install virtualenv
 ```
 
-- For Mac
-```bash
-$ pip install --upgrade virtualenv
-```
 
-Create a Python 3.6 virtual environment for this project and activate the virtualenv:
-```bash
-$ virtualenv -p python3.6 yoloface
-$ source ./yoloface/bin/activate
-```
-
-Next, install the dependencies for the this project:
+Install the dependencies for the this project:
 ```bash
 $ pip install -r requirements.txt
 ```
@@ -58,8 +42,6 @@ $ pip install -r requirements.txt
 ```bash
 $ git clone https://github.com/sthanhng/yoloface
 ```
-
-* For face detection, you should download the pre-trained YOLOv3 weights file which trained on the [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html) dataset from this [link](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view?usp=sharing) and place it in the `model-weights/` directory.
 
 * Run the following command:
 
