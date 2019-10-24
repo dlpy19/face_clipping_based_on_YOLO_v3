@@ -30,8 +30,8 @@ $ git clone https://github.com/sthanhng/yoloface or download it as  zippfolder
    Run $   python  batch_resize.py  [desired dimention]  ## for example 223 will resize all faces as (223x223) with respect to ratio.
 
 
-![GitHub Logo](/test.jpg)
-![GitHub Logo](/1.png)
+![image1](/test1.jpg)
+![clipped_faces](/1.png)
 
 ## License
 
